@@ -45,12 +45,23 @@ function processFirstItem(stringList, callback) {
  * [1] Invoking `processLength` passing `['foo', 'bar']` and `(num) => num + 1000`,
  * should return 1002.
  * 
+ * 
  * [2] Invoking `processLength` passing `[]` and `(num) => "There are " + num`,
  * should return "There are 0".
 */
-function processLength(/* CODE HERE */) {
-  /* CODE HERE */
+
+const list = [1, 2, 3, 4, 5 ];
+
+
+function processLength(list) {
+  
+  const sum = function(num) {
+    return sum;
+  }
 }
+console.log(processLength(list));
+console.log('Length', Length)
+
 
 /**
  * ### Challenge `processLastItem`
